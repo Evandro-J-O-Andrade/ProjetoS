@@ -1,0 +1,121 @@
+/* Estilo básico para a página */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700displya=swap');
+
+body {
+    background-color: #f4f4f4; /* Cor de fundo */
+    font-family: 'noto Sans', sans-serif; /* Fonte usada na página */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: hsl(208, 87%, 9%); /* Fundo escuro */
+    color: white; /* Texto branco */
+    padding: 3px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    height: 100%;
+}
+
+/* Estilo para os links no menu de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 10;
+    display: flex;
+    margin-top: 0;
+    
+    
+
+}
+
+nav ul li {
+    display: inline-block; /* Alinha os itens na horizontal */
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 0;
+    
+ 
+    
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do link */
+    
+}
+
+nav ul li a:hover {
+    color: #005f6b; /* Cor do link ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor */
+}
+
+/* Estilo para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form label {
+    margin: 10px 0 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #008cba; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #005f6b; /* Cor ao passar o mouse */
+}
+
+
+.social-icons a {
+    color: white;
+    margin:30px ;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.social-icons a:hover {
+    color: #416d9c; /* Cor ao passar o mouse */
+    
+}
+    
+/* Estilo para o rodapé */
+
+footer {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 35px;
+}
